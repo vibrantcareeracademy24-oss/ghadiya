@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ઘડિયા શીખો | Gujarati Tables</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h1>📚 ઘડિયા શીખો</h1>
+    <p>જુઓ • સાંભળો • બોલો • યાદ કરો</p>
+</header>
+
+<main class="container">
+
+    <section class="intro">
+        <h2>૧ થી ૧૦ સુધીના ઘડિયા</h2>
+
+        <p>
+            નીચેનો ઘડિયો પસંદ કરો અને દરેક પંક્તિ પર 🔊 દબાવીને
+            ઘડિયો સાંભળો.
+        </p>
+    </section>
+
+    <!-- Table selector -->
+    <section class="selector">
+
+        <label for="tableSelect">ઘડિયો પસંદ કરો:</label>
+
+        <select id="tableSelect">
+            <!-- JavaScript દ્વારા options આવશે -->
+        </select>
+
+    </section>
+
+    <!-- Current table -->
+    <section class="table-card">
+
+        <div class="table-title">
+            <h2 id="tableTitle">એકનો ઘડિયો</h2>
+
+            <button id="playAllBtn" class="play-all">
+                🔊 આખો ઘડિયો સાંભળો
+            </button>
+        </div>
+
+        <div id="tableContainer">
+            <!-- JavaScript દ્વારા rows આવશે -->
+        </div>
+
+    </section>
+
+    <!-- Navigation -->
+    <section class="navigation">
+
+        <button id="prevBtn">
+            ◀ પાછલો
+        </button>
+
+        <button id="nextBtn">
+            આગળ ▶
+        </button>
+
+    </section>
+
+    <section class="practice">
+
+        <h2>✏️ Practice</h2>
+
+        <p>
+            ઘડિયો સાંભળ્યા પછી નીચે બોલીને પ્રેક્ટિસ કરો.
+        </p>
+
+        <button id="randomBtn" class="random-btn">
+            🎯 Random પ્રશ્ન
+        </button>
+
+        <div id="questionBox" class="question-box">
+            અહીં પ્રશ્ન આવશે
+        </div>
+
+        <button id="showAnswerBtn" class="answer-btn">
+            જવાબ જુઓ
+        </button>
+
+        <div id="answerBox" class="answer-box"></div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>© Gujarati Tables Learning Worksheet</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
