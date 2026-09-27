@@ -411,7 +411,7 @@ document
 
             const speech =
                 new SpeechSynthesisUtterance(
-                    rows[index]
+                    rows[index].speak
                 );
 
 
