@@ -296,8 +296,7 @@ function displayTable(number) {
         textDiv.className =
             "table-text";
 
-        textDiv.textContent =
-            text;
+        textDiv.textContent = text.display;
 
 
         /* Sound Button */
