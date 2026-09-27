@@ -318,7 +318,7 @@ function displayTable(number) {
 
         button.onclick = function() {
 
-            speakGujarati(text);
+            speakGujarati(text.speak);
 
         };
 
