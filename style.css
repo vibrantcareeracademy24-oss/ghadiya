@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Noto Sans Gujarati", "Nirmala UI", Arial, sans-serif;
+    background: #f4f7fb;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header */
+
+.header {
+    background: linear-gradient(135deg, #3157d5, #5737c9);
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+.header h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.header p {
+    font-size: 17px;
+}
+
+/* Main */
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Intro */
+
+.intro {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+.intro h2 {
+    margin-bottom: 8px;
+}
+
+/* Selector */
+
+.selector {
+    background: white;
+    padding: 18px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.selector label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.selector select {
+    width: 100%;
+    padding: 13px;
+    font-size: 18px;
+    border: 2px solid #3157d5;
+    border-radius: 10px;
+    background: white;
+}
+
+/* Table Card */
+
+.table-card {
+    background: white;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+}
+
+.table-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table-title h2 {
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+.play-all {
+    border: none;
+    background: #198754;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.play-all:hover {
+    opacity: 0.9;
+}
+
+/* Table Rows */
+
+.table-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 13px 10px;
+    margin-bottom: 8px;
+
+    background: #f7f9ff;
+    border: 1px solid #e0e5f5;
+    border-radius: 10px;
+}
+
+.table-text {
+    font-size: 21px;
+    font-weight: 600;
+    flex: 1;
+}
+
+.sound-btn {
+    width: 48px;
+    height: 48px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #3157d5;
+    color: white;
+
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.sound-btn:hover {
+    transform: scale(1.05);
+}
+
+/* Navigation */
+
+.navigation {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.navigation button {
+    flex: 1;
+
+    border: none;
+    background: #3157d5;
+    color: white;
+
+    padding: 13px;
+    border-radius: 10px;
+
+    font-size: 17px;
+    cursor: pointer;
+}
+
+/* Practice */
+
+.practice {
+    background: white;
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 15px;
+
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+
+    text-align: center;
+}
+
+.practice h2 {
+    margin-bottom: 8px;
+}
+
+.random-btn,
+.answer-btn {
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 17px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.random-btn {
+    background: #f0ad00;
+    color: white;
+}
+
+.answer-btn {
+    background: #6f42c1;
+    color: white;
+}
+
+.question-box {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 15px;
+    background: #f8f1ff;
+    border-radius: 12px;
+}
+
+.answer-box {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #666;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .header h1 {
+        font-size: 27px;
+    }
+
+    .container {
+        padding: 12px;
+    }
+
+    .table-title h2 {
+        font-size: 24px;
+    }
+
+    .table-text {
+        font-size: 18px;
+    }
+
+    .sound-btn {
+        width: 44px;
+        height: 44px;
+    }
+
+    .navigation button {
+        font-size: 15px;
+    }
+}
